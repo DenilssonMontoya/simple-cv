@@ -1,0 +1,54 @@
+.nav {
+  width: 20%;
+  position: fixed;
+  z-index: 1;
+  top: 20px;
+  left: 10%;
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+
+.main {
+  padding: 0px 10px;
+  width: 60%;
+  margin: auto;
+}
+.header {
+  padding: 0px 10px;
+  width: 60%;
+  margin: auto;
+}
+
+.footer {
+  height: 70px;
+  width: 60%;
+  margin: auto;
+  text-align: right;
+}
+
+.subtitle {
+  color: darkblue;
+}
+
+.listNoBullets {
+  list-style: none;
+}
+
+.personDetails {
+  display: flex;
+}
+
+.fullName {
+  width: 60%;
+  font-size: 30px;
+}
+.contactInfo {
+  text-align: right;
+  padding-left: 0.5rem;
+  margin-left: 0.5rem;
+  width: 40%;
+}
+
+a[href^="mailto"]::before {
+  content: "📧 ";
+}
